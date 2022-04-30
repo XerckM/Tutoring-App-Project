@@ -9,44 +9,32 @@ import android.view.View;
 
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button buttonSI;
-    private Button buttonLI;
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Button button1 = findViewById(R.id.button);
+        Button button2 = findViewById(R.id.LogButton);
 
-        buttonSI = findViewById(R.id.button);
-        buttonSI.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivityTest();
-            }
-        });
-
-        buttonLI = (Button) findViewById(R.id.LogButton);
-        buttonLI.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivityLogin();
-            }
-        });
-
+        button1.setOnClickListener(this);
+        button2.setOnClickListener(this);
 
     }
 
-    public void openActivityTest(){
-        Intent intent = new Intent(this, ActivityTest.class);
-        startActivity(intent);
-    }
 
-    public void openActivityLogin(){
-        Intent intent2 = new Intent(this, ActivitlyLogin.class);
-        startActivity(intent2);
-
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.button:
+                Intent intent = new Intent(this, ActivityTest.class);
+                startActivity(intent);
+                break;
+            case R.id.LogButton:
+                Intent intent2 = new Intent(this, ActivityExam.class);
+                startActivity(intent2);
+                break;
+        }
     }
 }

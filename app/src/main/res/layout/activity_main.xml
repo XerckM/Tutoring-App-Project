@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:text="@string/Login"
         android:translationX="130dp"
-        android:translationY="450dp"/>
+        android:translationY="450dp" />
 
 
 </RelativeLayout>

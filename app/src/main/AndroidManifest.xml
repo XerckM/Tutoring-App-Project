@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tutoring_app_project">
+    package="com.example.tutoring_app_project" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TutoringAppProject">
+        android:theme="@style/Theme.TutoringAppProject" >
+        <activity
+            android:name=".ActivityExam"
+            android:exported="true" />
         <activity
             android:name=".ActivityTest"
             android:exported="false" />
@@ -16,7 +19,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.TutoringAppProject.NoActionBar">
+            android:theme="@style/Theme.TutoringAppProject.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
