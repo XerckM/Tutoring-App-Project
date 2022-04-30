@@ -6,22 +6,32 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:layout_width="match_parent"
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-90dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/yellowsquare" />
+        android:translationY="-60dp"
+        app:srcCompat="@drawable/yellowsquare" />
+
 
     <TextView
-        android:layout_width="236dp"
-        android:layout_height="82dp"
+        android:layout_width="208dp"
+        android:layout_height="101dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/fab_margin"
-        android:fontFamily="@font/bauhs93"
+        android:fontFamily="@font/comicbd"
         android:gravity="center"
         android:text="@string/welcome"
         android:textColor="#000000"
-        android:textSize="35sp" />
+        android:textSize="25sp"
+        android:translationX="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="-200dp"
+        android:translationY="-300dp"
+        app:srcCompat="@drawable/bcircle" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -30,9 +40,39 @@
         android:translationX="0dp"
         android:translationY="-23dp"
         android:visibility="visible"
-        app:srcCompat="@drawable/img" />
+        app:srcCompat="@drawable/tiger" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="300dp"
+        app:srcCompat="@drawable/yellowsquare" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="200dp"
+        android:translationY="400dp"
+        app:srcCompat="@drawable/bcircle" />
 
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signin"
+        android:translationX="130dp"
+        android:translationY="400dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Login"
+        android:translationX="130dp"
+        android:translationY="450dp"/>
 
 
 </RelativeLayout>
