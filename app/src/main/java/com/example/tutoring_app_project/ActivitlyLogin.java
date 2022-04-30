@@ -9,10 +9,5 @@ import android.widget.Button;
 
 public class ActivitlyLogin extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activitly_login);
 
-    }
 }
