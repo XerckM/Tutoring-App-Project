@@ -47,20 +47,18 @@ public class StudentSetAppt extends Fragment {
             public void onClick(View view) {
                     boolean checked = ((Checkable) view).isChecked();
                     int x = 0;
-                    NavHostFragment.findNavController(StudentSetAppt.this);
+                    NavHostFragment.findNavController(StudentSetAppt.this)
+                            .navigate(R.id.action_studentSetAppt_to_studentViewAppt);
 
                     switch(view.getId()) {
                         case R.id.checkBoxMatt:
                             if (checked){
-                                NavHostFragment.findNavController(StudentSetAppt.this)
-                                        .navigate(R.id.action_studentSetAppt_to_studentViewAppt);
 
                             }
                             break;
                         case R.id.checkBox2Sam:
                             if (checked){
-                                NavHostFragment.findNavController(StudentSetAppt.this)
-                                        .navigate(R.id.action_studentSetAppt_to_studentViewAppt);
+
                             }
 
                             break;
