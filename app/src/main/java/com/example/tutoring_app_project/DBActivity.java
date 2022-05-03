@@ -1,4 +1,4 @@
-package com.example.tutoring_app_project.;
+package com.example.tutoring_app_project;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
