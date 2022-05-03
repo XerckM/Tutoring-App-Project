@@ -25,5 +25,7 @@ public class StudentViewAppt extends Fragment {
         // Inflate the layout for this fragment
         view =  inflater.inflate(R.layout.fragment_student_view_appt, container, false);
         return view;
+
+
     }
 }

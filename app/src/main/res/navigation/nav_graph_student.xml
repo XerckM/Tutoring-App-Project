@@ -25,6 +25,10 @@
         <action
             android:id="@+id/action_studentSetAppt_to_studentActivityContent"
             app:destination="@id/studentActivityContent" />
+        <action
+            android:id="@+id/action_studentSetAppt_to_studentViewAppt"
+            app:destination="@id/studentViewAppt" />
+            />
     </fragment>
     <fragment
         android:id="@+id/studentViewAppt"
