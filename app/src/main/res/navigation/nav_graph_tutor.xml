@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph_tutor">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_tutor"
+    app:startDestination="@id/tutorSetSchedule">
 
+    <fragment
+        android:id="@+id/tutorSetSchedule"
+        android:name="com.example.tutoring_app_project.tutor.TutorSetSchedule"
+        android:label="fragment_tutor_set_schedule"
+        tools:layout="@layout/fragment_tutor_set_schedule" >
+        <action
+            android:id="@+id/action_tutorSetSchedule_to_tutorActivityContent"
+            app:destination="@id/tutorActivityContent" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorViewSchedule"
+        android:name="com.example.tutoring_app_project.tutor.TutorViewSchedule"
+        android:label="fragment_tutor_view_schedule"
+        tools:layout="@layout/fragment_tutor_view_schedule" >
+        <action
+            android:id="@+id/action_tutorViewSchedule_to_tutorActivityContent"
+            app:destination="@id/tutorActivityContent" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorActivityContent"
+        android:name="com.example.tutoring_app_project.tutor.TutorActivityContent"
+        android:label="fragment_tutor_activity_content"
+        tools:layout="@layout/fragment_tutor_activity_content" >
+        <action
+            android:id="@+id/action_tutorActivityContent_to_tutorViewSchedule"
+            app:destination="@id/tutorViewSchedule" />
+        <action
+            android:id="@+id/action_tutorActivityContent_to_tutorSetSchedule"
+            app:destination="@id/tutorSetSchedule" />
+    </fragment>
 </navigation>
