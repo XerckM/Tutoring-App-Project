@@ -1,7 +1,6 @@
 # Tutoring-App-Project
 Tutoring Scheduling App Project
 instructions:
-==========================
 Log in as a student or tutor with username and Password
 
 as a student: 
@@ -11,4 +10,4 @@ as a student:
 as a tutor:
 - you can set/accept tutoring request from students.
 - you can view your schedule with different students
-==========================
+
