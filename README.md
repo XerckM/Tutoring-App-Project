@@ -1,6 +1,7 @@
 # Tutoring-App-Project
 Tutoring Scheduling App Project
-instructions:
+
+Instructions:
 Log in as a student or tutor with username and Password
 
 as a student: 
