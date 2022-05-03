@@ -17,8 +17,8 @@ public class LoginDataSource {
                 LoggedInUser student = new LoggedInUser(username, "Student");
                 return new Result.Success<>(student);
             }
-            else if (username.equals("teacher") && password.equals("password")) {
-                LoggedInUser teacher = new LoggedInUser(username, "Teacher");
+            else if (username.equals("tutor") && password.equals("password")) {
+                LoggedInUser teacher = new LoggedInUser(username, "Tutor");
                 return new Result.Success<>(teacher);
             }
             else {

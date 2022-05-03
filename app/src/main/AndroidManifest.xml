@@ -13,7 +13,7 @@
             android:name=".student.StudentActivity"
             android:exported="false" />
         <activity
-            android:name=".teacher.TeacherActivity"
+            android:name=".tutor.TutorActivity"
             android:exported="false" />
         <activity
             android:name=".ui.login.LoginActivity"

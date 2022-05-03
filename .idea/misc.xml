@@ -3,13 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/drawable-v24/button_shape.xml" value="0.115" />
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/drawable-v24/splashscreen.xml" value="0.103" />
+        <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/drawable/add_appointment_vector.xml" value="0.115" />
+        <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/drawable/check_appointments_vector.xml" value="0.1615" />
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/activity_dbactivity.xml" value="0.14722222222222223" />
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/activity_exam.xml" value="0.33" />
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/activity_student.xml" value="0.33" />
+        <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/activity_teacher.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/content_main.xml" value="0.25" />
         <entry key="..\:/Users/nmaruf1/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/font/font.xml" value="0.39076923076923076" />
         <entry key="..\:/Users/nmaruf1/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/activitly_login.xml" value="0.36666666666666664" />

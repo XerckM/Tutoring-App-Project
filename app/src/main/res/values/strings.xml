@@ -4,7 +4,7 @@
     <!-- Strings used for fragments for navigation -->
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="welcome">Welcome </string>
+    <string name="welcome">"Welcome "</string>
     <string name="signin">Please Sign In</string>
     <string name="Login">Please Login</string>
 

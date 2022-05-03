@@ -26,7 +26,7 @@ import android.widget.Toast;
 
 import com.example.tutoring_app_project.R;
 import com.example.tutoring_app_project.student.StudentActivity;
-import com.example.tutoring_app_project.teacher.TeacherActivity;
+import com.example.tutoring_app_project.tutor.TutorActivity;
 import com.example.tutoring_app_project.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {
@@ -74,6 +74,7 @@ public class LoginActivity extends AppCompatActivity {
                 loadingProgressBar.setVisibility(View.GONE);
                 if (loginResult.getError() != null) {
                     showLoginFailed(loginResult.getError());
+                    return;
                 }
                 if (loginResult.getSuccess() != null) {
                     updateUiWithUser(loginResult.getSuccess());
@@ -142,7 +143,7 @@ public class LoginActivity extends AppCompatActivity {
         else {
             new Handler().postDelayed(new Runnable() {
                 public void run() {
-                    startActivity(new Intent(LoginActivity.this, TeacherActivity.class));
+                    startActivity(new Intent(LoginActivity.this, TutorActivity.class));
                     finish();
                 }
             }, 0);
