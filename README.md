@@ -9,6 +9,7 @@ Instructions:
 
 Log in as a student or tutor with username and Password
 
+Presentation Purposes Only
 -------------------------------------------------------
 as a STUDENT: 
 
