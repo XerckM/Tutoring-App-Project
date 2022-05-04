@@ -44,7 +44,8 @@ public class StudentSetAppt extends Fragment {
         binding.StudentScheduleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // TODO: Set Button Parameters
+                NavHostFragment.findNavController(StudentSetAppt.this)
+                    .navigate(R.id.action_studentSetAppt_to_studentViewAppt);
             }
         });
     }
