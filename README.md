@@ -26,6 +26,6 @@ Username: tutor
 
 Password: password
 
-- you can set/accept tutoring request from students.
-- you can view your schedule with different students
+- you can set dates for tutoring availability.
+- you can view your schedule with different students.
 
