@@ -15,20 +15,16 @@
             app:destination="@id/studentViewAppt" />
         <action
             android:id="@+id/action_studentActivityContent_to_studentSetAppt"
-            app:destination="@id/studentSetAppt" />
+            app:destination="@id/StudentSetAppt" />
     </fragment>
     <fragment
-        android:id="@+id/studentSetAppt"
+        android:id="@+id/StudentSetAppt"
         android:name="com.example.tutoring_app_project.student.StudentSetAppt"
         android:label="fragment_student_set_appt"
         tools:layout="@layout/fragment_student_set_appt" >
         <action
             android:id="@+id/action_studentSetAppt_to_studentActivityContent"
             app:destination="@id/studentActivityContent" />
-        <action
-            android:id="@+id/action_studentSetAppt_to_studentViewAppt"
-            app:destination="@id/studentViewAppt" />
-            />
     </fragment>
     <fragment
         android:id="@+id/studentViewAppt"

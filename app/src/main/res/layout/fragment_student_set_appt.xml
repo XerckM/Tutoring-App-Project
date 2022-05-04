@@ -9,83 +9,56 @@
     <!-- TODO: Update blank fragment layout -->
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="235dp"
-        android:layout_height="475dp"
-        android:layout_marginBottom="472dp"
+        android:id="@+id/StudentSetApptCircle"
+        android:layout_width="239dp"
+        android:layout_height="309dp"
+        android:layout_marginBottom="572dp"
         android:src="@drawable/img_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="254dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="188dp"
-        android:scaleX="3"
-        android:src="@drawable/img_1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.254"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="254dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="32dp"
-        android:scaleX="3"
-        android:src="@drawable/img_1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.254"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/AvailableTutorsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="648dp"
         android:fontFamily="@font/amiriquran"
-        android:text="Available tutors"
+        android:text="@string/set_schedule"
         android:textSize="25sp"
-        android:translationX="119dp"
-        android:translationY="30dp"
+        android:translationX="113dp"
+        android:translationY="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"  />
 
     <Button
-        android:id="@+id/setbutton"
-        android:layout_width="wrap_content"
+        android:id="@+id/StudentScheduleButton"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="448dp"
-        android:text="Set"
+        android:layout_marginBottom="140dp"
+        android:text="Schedule"
         android:translationY="-5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/MainMenuButton"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/StudentMenuButton"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/MainMenuButton"
-        android:layout_width="wrap_content"
+        android:id="@+id/StudentMenuButton"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="448dp"
-        android:layout_marginEnd="112dp"
-        android:text="main menu"
-        android:translationY="-4dp"
-        app:layout_constraintEnd_toStartOf="@+id/setbutton"
-        app:layout_constraintHorizontal_bias="0.51"
+        android:layout_marginBottom="140dp"
+        android:text="Main Menu"
+        android:translationY="-5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/StudentScheduleButton"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -95,6 +68,19 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="-86dp" />
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="254dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="188dp"
+        android:scaleX="3"
+        android:src="@drawable/img_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
     <CheckBox
         android:id="@+id/checkBoxMatt"
         android:layout_width="wrap_content"
@@ -102,23 +88,35 @@
         android:layout_marginTop="204dp"
         android:text="Matthew Logs \nComputer Science \n Monday and Friday "
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintHorizontal_bias="0.346"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="254dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="40dp"
+        android:scaleX="3"
+        android:src="@drawable/img_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/checkBox2Sam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="76dp"
         android:text="Sammy Wrights \nComputer Science \n Monday and Friday "
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintHorizontal_bias="0.346"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBoxMatt"
         tools:ignore="MissingConstraints" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

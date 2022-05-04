@@ -21,7 +21,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ViewScheduledButton"
+        android:id="@+id/TutorViewButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="136dp"
@@ -32,12 +32,12 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/SetScheduleButton"
+        app:layout_constraintStart_toEndOf="@+id/TutorSetButton"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/SetScheduleButton"
+        android:id="@+id/TutorSetButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="136dp"
@@ -46,7 +46,7 @@
         android:paddingTop="5sp"
         android:text="Set"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/ViewScheduledButton"
+        app:layout_constraintEnd_toStartOf="@+id/TutorViewButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -60,7 +60,7 @@
         android:layout_marginEnd="200dp"
         android:src="@drawable/bcircle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SetScheduleButton" />
+        app:layout_constraintTop_toBottomOf="@+id/TutorSetButton" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -69,7 +69,7 @@
         android:layout_marginStart="208dp"
         android:layout_marginBottom="40dp"
         android:src="@drawable/bcircle"
-        app:layout_constraintBottom_toTopOf="@+id/ViewScheduledButton"
+        app:layout_constraintBottom_toTopOf="@+id/TutorViewButton"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

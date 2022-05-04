@@ -33,7 +33,7 @@ public class StudentSetAppt extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.MainMenuButton.setOnClickListener(new View.OnClickListener() {
+        binding.StudentMenuButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(StudentSetAppt.this)
@@ -41,30 +41,10 @@ public class StudentSetAppt extends Fragment {
             }
         });
 
-        binding.setbutton.setOnClickListener(new View.OnClickListener() {
+        binding.StudentScheduleButton.setOnClickListener(new View.OnClickListener() {
             @Override
-
             public void onClick(View view) {
-                    boolean checked = ((Checkable) view).isChecked();
-                    int x = 0;
-                    NavHostFragment.findNavController(StudentSetAppt.this)
-                            .navigate(R.id.action_studentSetAppt_to_studentViewAppt);
-
-                    switch(view.getId()) {
-                        case R.id.checkBoxMatt:
-                            if (checked){
-
-                            }
-                            break;
-                        case R.id.checkBox2Sam:
-                            if (checked){
-
-                            }
-
-                            break;
-                    }
-
-
+                // TODO: Set Button Parameters
             }
         });
     }

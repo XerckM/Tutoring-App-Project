@@ -23,6 +23,9 @@
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_student_setappt.xml" value="0.3625" />
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_student_view_appt.xml" value="0.3625" />
         <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_student_viewappt.xml" value="0.3625" />
+        <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_tutor_activity_content.xml" value="0.3625" />
+        <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_tutor_set_schedule.xml" value="0.3625" />
+        <entry key="..\:/Users/merca/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_tutor_view_schedule.xml" value="0.3625" />
         <entry key="..\:/Users/nmaruf1/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/font/font.xml" value="0.39076923076923076" />
         <entry key="..\:/Users/nmaruf1/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/activitly_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/nmaruf1/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/activity_exam.xml" value="0.35260416666666666" />
@@ -33,14 +36,6 @@
         <entry key="..\:/Users/nmaruf1/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/content_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/nmaruf1/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/nmaruf1/AndroidStudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/xmerca1/StudioProjects/Tutoring-App-Project/app/src/main/res/layout/activity_tutor.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/xmerca1/StudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_blank.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/xmerca1/StudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_student_activity_content.xml" value="0.1" />
-        <entry key="..\:/Users/xmerca1/StudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_student_set_appt.xml" value="0.1" />
-        <entry key="..\:/Users/xmerca1/StudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_student_view_appt.xml" value="0.25" />
-        <entry key="..\:/Users/xmerca1/StudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_tutor_activity_content.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/xmerca1/StudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_tutor_set_schedule.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/xmerca1/StudioProjects/Tutoring-App-Project/app/src/main/res/layout/fragment_tutor_view_schedule.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

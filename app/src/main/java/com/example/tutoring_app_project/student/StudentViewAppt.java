@@ -34,15 +34,13 @@ public class StudentViewAppt extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.MainMenuButton2.setOnClickListener(new View.OnClickListener() {
+        binding.StudentViewMenuButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(StudentViewAppt.this)
                         .navigate(R.id.action_studentViewAppt_to_studentActivityContent);
             }
         });
-
-
     }
 
     @Override
